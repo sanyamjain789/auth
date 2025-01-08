@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1035831132503",
+    "project_id": "authpro-64125",
+    "storage_bucket": "authpro-64125.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1035831132503:android:b40e4dd240884fc5637e12",
+        "android_client_info": {
+          "package_name": "com.authpro"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsoopE6CgE05YbaazpzJMISQaChlPo150"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
