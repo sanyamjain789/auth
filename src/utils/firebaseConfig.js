@@ -1,4 +1,3 @@
-// src/utils/firebaseConfig.js
 import firebase from '@react-native-firebase/app';
 import auth from '@react-native-firebase/auth';
 import firestore from '@react-native-firebase/firestore';
@@ -15,5 +14,7 @@ const firebaseConfig = {
 if (!firebase.apps.length) {
   firebase.initializeApp(firebaseConfig);
 }
+
+auth().setPersistence(auth.Auth.Persistence.LOCAL);
 
 export { firebase, auth, firestore };
